@@ -1,17 +1,16 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 33899
 
 ## Current behavior
 
-Explain the current behavior here.
+https://github.com/dominikholler/renovatemissingfile/pull/1 is removing
+`unmodifiedfile`, but it should keep it.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+https://github.com/dominikholler/renovatemissingfile/pull/1 does not touch
+`unmodifiedfile`.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/33899
+
