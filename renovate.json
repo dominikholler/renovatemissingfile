@@ -7,7 +7,8 @@
             "cp a.txt vendor/golang.org/x/net/unmodifiedfile",
             "git status",
             "git add -A",
-            "git status"
+            "git status",
+            "sleep 120"
         ],
         "executionMode": "branch"
   }
