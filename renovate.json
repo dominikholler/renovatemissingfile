@@ -1,9 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "prHourlyLimit": 0,
   "postUpgradeTasks": {
         "commands": [
             "cp b.txt vendor/golang.org/x/net/modifiedfile",
-            "cp a.txt vendor/golang.org/x/net/unmodifiedfile"
+            "cp a.txt vendor/golang.org/x/net/unmodifiedfile",
+            "git add vendor/golang.org/x/net/unmodifiedfile"
         ],
         "executionMode": "branch"
   }
